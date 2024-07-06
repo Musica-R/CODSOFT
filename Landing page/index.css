@@ -1,0 +1,206 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+/*header section*/
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+li,ul,.headh1{
+    display: inline;
+}
+ul{
+    margin-left: 50%;
+}
+li{
+    padding: 10px;
+    cursor: pointer;
+    color:rgb(197, 197, 197);
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    color:white;
+    background-color: teal;
+    border-radius:20px;
+}
+/*body section*/
+.container{
+    background-image: url(beads.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+#para{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal;
+    font-size:60px;
+    text-align: center;
+    color:rgb(17, 16, 16);
+    margin-top: 280px;
+    margin-bottom: 270px;
+}
+/*About us  section*/
+.about-h1{
+    margin-left: 30px;
+    color:rgb(7, 6, 6);
+}
+p{
+    text-align: justify;
+    margin-top: 30px;
+    width:60%;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.us{
+    background-color: rgb(228, 222, 222);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.product{
+    width:200px;
+    height: 200px;
+    border-radius:10px
+}
+figcaption{
+    text-align: center;
+    border-radius:4px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgb(214, 200, 200);
+    cursor: pointer;
+}
+/*footer section*/
+footer{
+  background-color:black;
+  text-align: center;
+  padding:5px;
+  color:white;
+}
+#contact{
+    margin-bottom: 20px;
+}
+h5{
+    display: inline;
+    padding:4px;
+}
+#foot{
+    display: block;
+    padding: 20px;
+}
+.num,.mail{
+    display: inline;
+    font-size: 15px;
+}
+h4{
+    margin: 5px;
+}
+.num,.mail{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+/*signup section*/
+form{
+    float:right;
+    background-color: rgb(240, 231, 231);
+    padding: 30px;
+    margin-right:120px;
+    margin-top:70px;
+    border-radius: 10px;
+    border-color: pink;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom:none;
+    border-right: none;
+}
+input{
+    padding: 10px;
+    border-radius:10px;
+    border-bottom:none;
+    border-right: none;
+    margin:5px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    margin:20px;
+    margin-left: 75px;
+    padding:5px;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+}
+button:hover{
+    background-color:pink;
+}
+@media  screen and (max-width:1000px){
+    h1,ul{
+        display: block;
+       }
+       ul{
+        margin-left:1px;
+     } 
+    form{
+        margin-left:50px;
+    }
+    
+}
+
+@media screen and (max-width:425px){
+    h1,ul{
+      display: block;
+     }
+     ul{
+      margin-left:-10px;
+   }
+   .container{
+      background-image: url(beads.jpeg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width:425;
+      height:520;
+   }
+  
+  form{
+            margin-left:50px;
+            margin-right:10px;
+            float:none;
+            width:60%;
+  }
+  .about-h1{
+      margin-left: 0px;
+  }
+  p{
+    width:100%;
+    margin-left:0px;
+    }
+  .us{
+      background-color: rgb(228, 222, 222);
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+  }
+  .product{
+      width:100px;
+      height: 100px;
+      border-radius:10px
+  }
+  }
+ 
